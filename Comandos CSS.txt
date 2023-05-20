@@ -1,13 +1,19 @@
-justify-content
-flex-start: os itens se alinham no lado esquerdo do contêiner.
-flex-end: os itens se alinham no lado direito do contêiner.
-center: os itens se alinham no centro do contêiner.
-space-between: Os itens são exibidos com espaçamento igual entre eles.
-space-around: Os itens são exibidos com espaçamento igual ao redor deles.
+### justify-content ###
+flex-start: os itens se alinham no lado esquerdo do conteiner.
+flex-end: os itens se alinham no lado direito do conteiner.
+center: os itens se alinham no centro do conteiner.
+space-between: Os itens sao exibidos com espaÃ§amento igual entre eles.
+space-around: Os itens sao exibidos com espaÃ§amento igual ao redor deles.
 
-align-items
-flex-start: os itens se alinham na parte superior do contêiner.
-flex-end: os itens se alinham na parte inferior do contêiner.
-center: os itens se alinham no centro vertical do contêiner.
-baseline: os itens são exibidos na linha de base do contêiner.
-stretch: os itens são esticados para caber no contêiner.
+### align-items ###
+flex-start: os itens se alinham na parte superior do conteiner.
+flex-end: os itens se alinham na parte inferior do conteiner.
+center: os itens se alinham no centro vertical do conteiner.
+baseline: os itens sao exibidos na linha de base do conteiner.
+stretch: os itens sao esticados para caber no conteiner.
+
+### flex-direction ###
+row: Os itens sÃ£o colocados da mesma forma que a direÃ§Ã£o do texto.
+row-reverse: os itens sÃ£o colocados na direÃ§Ã£o oposta Ã  direÃ§Ã£o do texto.
+column: os itens sÃ£o colocados de cima para baixo.
+column-reverse: os itens sÃ£o colocados de baixo para cima.
