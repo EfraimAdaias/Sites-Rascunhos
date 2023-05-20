@@ -9,4 +9,11 @@
   .elegante {
     font-weight: bold;
     text-shadow: 4px 4px 3px #77f;
-  }  
+  }
+  .vermelho-elegante {
+    color: #fff;
+    background: scroll rgb(227, 61, 48);
+    font-size: large;
+    text-align: center;
+    text-shadow: 2px 2px 1px #000;
+  }
