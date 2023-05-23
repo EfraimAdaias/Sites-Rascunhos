@@ -17,3 +17,33 @@ row: Os itens são colocados da mesma forma que a direção do texto.
 row-reverse: os itens são colocados na direção oposta à direção do texto.
 column: os itens são colocados de cima para baixo.
 column-reverse: os itens são colocados de baixo para cima.
+
+### order ###
+Às vezes, inverter a ordem das linhas ou colunas de um contêiner não é suficiente. 
+Nesses casos, podemos aplicar a orderpropriedade a itens individuais. 
+Por padrão, os itens têm um valor de 0, mas podemos usar essa propriedade para também defini-la 
+como um valor inteiro positivo ou negativo (-2, -1, 0, 1, 2).
+
+### align-self ###
+Outra propriedade que você pode aplicar a itens individuais é align-self. 
+Esta propriedade aceita os mesmos valores align-items e seu valor para o item específico.
+
+### flex-wrap ###
+nowrap: Cada item é ajustado a uma única linha.
+wrap: os itens são agrupados em linhas adicionais.
+wrap-reverse: os itens voltam para linhas adicionais no sentido inverso.
+
+### flex-flow ###
+As duas propriedades flex-directione flex-wrapsão usadas com tanta frequência juntas 
+que a propriedade abreviada flex-flowfoi criada para combiná-las. 
+Essa propriedade abreviada aceita o valor das duas propriedades separadas por um espaço.
+
+### align-content ###
+Você pode usar align-contentpara definir como várias linhas são espaçadas umas das outras. 
+Esta propriedade assume os seguintes valores:
+flex-start: as linhas são empacotadas na parte superior do contêiner.
+flex-end: as linhas são empacotadas na parte inferior do contêiner.
+center: as linhas são empacotadas no centro vertical do contêiner.
+space-between: As linhas são exibidas com espaçamento igual entre elas.
+space-around: As linhas são exibidas com espaçamento igual ao redor delas.
+stretch: as linhas são esticadas para caber no contêiner.
