@@ -1,4 +1,4 @@
-### justify-content ###
+### justify-content - Alinhamento HORIZONTAL ###
 flex-start: os itens se alinham no lado esquerdo do conteiner.
 flex-end: os itens se alinham no lado direito do conteiner.
 center: os itens se alinham no centro do conteiner.
@@ -6,7 +6,7 @@ space-between: Os itens sao exibidos com espaçamento igual entre eles.
 space-around: Os itens sao exibidos com espaçamento igual ao redor deles.
 space-evenly: Os itens são exibidos com espaçamento constante entre eles;
 
-### align-items ###
+### align-items - Alinhamento VERTICAL###
 flex-start: os itens se alinham na parte superior do conteiner.
 flex-end: os itens se alinham na parte inferior do conteiner.
 center: os itens se alinham no centro vertical do conteiner.
